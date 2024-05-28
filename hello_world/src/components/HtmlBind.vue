@@ -3,6 +3,7 @@
     <div v-html= "salu"> </div>
     <div>{{ name }}</div>
     <div v-html="hack"></div>
+    <div>BJ 69</div>
   </template>
   
   <script>
