@@ -1,7 +1,7 @@
 <template>
     <h2 >DataBind</h2>
     <h2 v-bind:id="headingID">This is a example of Data Binding</h2>
-    <button v-bind:=Disabled>Click Me</button>
+    <button v-bind:disabled="isDisabled"> Click Me</button>
   </template>
   
   <script>
