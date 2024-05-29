@@ -1,9 +1,9 @@
 <template>
+  <h2>HtmlBind</h2>
     <div>{{ greet }} </div>
     <div v-html= "salu"> </div>
     <div>{{ name }}</div>
     <div v-html="hack"></div>
-    <div>BJ 69</div>
   </template>
   
   <script>
@@ -13,7 +13,7 @@
       name : "BINOY",
       greet : "HI",
       salu : '<b>MR</b>',
-      hack : <a href="#" onclick ='alert("You have been hacked")'>Click Here</a>
+      hack : `<a href="#" onclick ="alert('You have been hacked')">Click Here</a>`
       
     };
       

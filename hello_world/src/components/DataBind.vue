@@ -1,19 +1,19 @@
 <template>
-  <h2>TextBind</h2>
-    <div>{{ greet }} </div>
-    <div v-text= "salu"> </div>
-    <div>{{ name }}</div>
+    <h2 >DataBind</h2>
+    <h2 v-bind:id="headingID">This is a example of Data Binding</h2>
+    <button v-bind:=Disabled>Click Me</button>
   </template>
   
   <script>
-  export default {
-    name: 'TextBinding',
+  export default{
+    name : "DataBinding",
     data(){return{
-      name : "Binoy",
-      greet : "Hello",
-      salu : "Mr"  };
-  },
-  };
+       headingID : 'heading',
+       isDisabled : true,
+    }
+    }
+
+  }
   </script>
     
     
